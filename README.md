@@ -3,7 +3,8 @@ Hands-On L3: Installing Docker &amp; Building a Multi-Container Microservice
 
 
 Execution Steps:
-**1) Install  Docker Desktop**
+
+# 1) Install  Docker Desktop
 
 Windows
 a. Go to Docker Desktop for Windows.
@@ -26,7 +27,7 @@ c. Open the .dmg file and drag Docker.app into Applications.
 d. Open Docker.app and follow security prompts
 
 
-**2) PostgreSQL Setup with Docker**
+# 2) PostgreSQL Setup with Docker
 
 a. Pull the PostgreSQL image docker pull postgres
 
@@ -37,14 +38,14 @@ c. Open a terminal to the container docker exec -it postgres1 bash
 d. Interact with PostgreSQL using psql psql -d postgres -U postgres
 
 
-**3) Run the App**
+# 3) Run the App
 
 a. `docker compose up`
 
 b. Open on http://localhost:8000
 
 
-**What I learned**
+# What I learned
 
 I was reminded of the importance of formatting a `compose.yaml` file correct; spaces and indentation matter. 
 
